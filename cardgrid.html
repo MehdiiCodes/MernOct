@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Grid</title>
+
+    <style>
+        .row {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+        }
+
+        .card {
+            border: 2px solid red;
+        }
+
+        .card img {
+            width: 100%;
+        }
+
+        .card .card-content {
+            padding: 20px;
+        }
+
+        @media screen and (min-width: 1024px) {
+            .row {
+                grid-template-columns: repeat(4, 1fr);
+            }
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="row">
+        <div class="card">
+            <img src="https://ae01.alicdn.com/kf/HTB1IHWApjoIL1JjSZFyq6zFBpXaQ/Women-Sneakers-Mesh-Running-Shoes-Girls-students-Female-Leather-Sports-Outdoor-Gym-Breathable-Non-slip-fitness.jpg" alt="">
+
+            <div class="card-content">
+                <p>Adidas</p>
+                <h3>Sport Shoes</h3>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://th.bing.com/th/id/OIP.Ye2FsC1ZVYzJGU1X-b9DkQAAAA?w=385&h=385&rs=1&pid=ImgDetMain" alt="">
+
+            <div class="card-content">
+                <p>Adidas</p>
+                <h3>Sport Shoes</h3>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://th.bing.com/th/id/OIP.HyoRbDjSAfniAKdHlxWVdgHaHa?w=736&h=736&rs=1&pid=ImgDetMain" alt="">
+
+            <div class="card-content">
+                <p>Adidas</p>
+                <h3>Sport Shoes</h3>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://ae01.alicdn.com/kf/HTB1F_TJm0bJ8KJjy1zjq6yqapXaU/Sneakers-Women-Running-Shoes-Cushion-Sport-Gym-Shoes-Woman-Stylish-Leather-Comfortable-Sole-Outdoor-Walking-Black.jpg" alt="">
+
+            <div class="card-content">
+                <p>Adidas</p>
+                <h3>Sport Shoes</h3>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
