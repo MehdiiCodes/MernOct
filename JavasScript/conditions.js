@@ -2,58 +2,37 @@ num = 2134;
 
 if (num % 2 === 0) {
 
-    j = 'something'
+    j = 'something';
+    let a = 'nice';
+
+    const pi = 3.14;
+    // pi = 3.1125;
 
     console.log('Even');
 } else {
     console.log('Odd');
-    
 }
 
 console.log(j);
+// console.log(a);
 
+// WAP to check if a person is eligible for DL
 const age = 18;
 
 if (age >= 18) {
-    console.log("Eligible");
+    console.log('Eligible for DL');
 } else {
-    console.log("Not Eligible");
+    console.log('Not eligible for DL');
 }
 
-// Function to determine the grade based on marks
-function getGrade(marks) {
-    let grade;
+// WAP to check if number is a perfect square
+const num1 = 27;
+const root = num1 ** 0.5;
 
-    if (marks >= 90 && marks <= 100) {
-        grade = 'A+';
-    } else if (marks >= 80 && marks < 90) {
-        grade = 'A';
-    } else if (marks >= 70 && marks < 80) {
-        grade = 'B';
-    } else if (marks >= 60 && marks < 70) {
-        grade = 'C';
-    } else if (marks >= 50 && marks < 60) {
-        grade = 'D';
-    } else if (marks >= 0 && marks < 50) {
-        grade = 'F';
-    } else {
-        grade = 'Invalid marks entered';
-    }
+console.log(root);
 
-    return grade;
+if (Number.isInteger(root)) {
+    console.log('Perfect Square');
+} else {
+    console.log('Not a perfect square');
 }
-
-
-let marks = 85; 
-console.log(`The grade for marks ${marks} is: ${getGrade(marks)}`);
-
-
-function isPerfectSquare(num) {
-    return Number.isInteger(Math.sqrt(num));
-}
-
-
-let number = 25
-console.log(`${number} is a perfect square: ${isPerfectSquare(number)}`);
-
-
