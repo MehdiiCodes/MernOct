@@ -37,4 +37,3 @@ movies.splice(2, 2, 'Superman', 'Flash', 'Arrow');  // replace 3 elements
 movies.splice(2, 0, 'Superman', 'Flash'); //insert 3 elements
 console.log(movies);
 
-
