@@ -59,7 +59,7 @@ console.log('-------------------------------------------------');
 
 //WAP to get all names having character 'a'
 console.log('abcxyz'.includes('cx'));
-
+console.log('-------------------------------------------------');
 
 const nums2 = [3, 4, 9, 16, 15, 19];
 // filter all perfect squares
@@ -69,9 +69,11 @@ const perfectSquares = nums2.filter( (n) => {
 } );
 
  console.log(perfectSquares); 
+ console.log('-------------------------------------------------');
 
 
 const nums3 = [ 3.57, 23.3, 28.99, 4.55, 0.3 ];
 //convert every element to integer and then filter all even numbers
 console.log(nums3.map(n => parseInt(n)).filter(n => n % 2 === 0));
+console.log('-------------------------------------------------');
 
